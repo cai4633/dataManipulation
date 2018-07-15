@@ -9,17 +9,17 @@
     "dev": "npm run start",
     "build": "parcel build index.html"
   },
-
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
   },
-
   "author": "Mr cai",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
     "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
